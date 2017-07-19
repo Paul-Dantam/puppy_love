@@ -21,36 +21,71 @@ colors:
 
 #site_header{
     background-color: #ff8523;
-    height: 125px;
+    height: 145px;
+    padding-left: 20px;
+    padding-top: 20px;
     
 }
+
+
+
 
 .main_navigation > a{
     border: 1px solid white;
     border-radius: 3px;
     color: white;
+    font-weight: bold;
     text-decoration: none;
-    position: relative; top: 15px; left: 10px;
+    position: relative; top: 20px; left: 10px;
     padding: 5px 20px 5px 20px;
     /* margin: 10px; */
 }
 
+div:nth-child(2){
+    /* border-style: solid; */
+}
+
 
 h2{
-    color: #046c97
+    color: #1fabe5
 }
 
 h3{
-    color: #046c97
+    color: #1fabe5
 }
 
 ul{
     font-weight: bold
 }
 
-
-
-p > a{
-    color: #046c97
+thead{
+    background-color: #1fabe5;
+    color: white;
 }
 
+table{
+    border-collapse: collapse;
+}
+
+thead, td {
+    border: 1px #1fabe5;
+    border-style: solid;
+}
+
+p > a{
+    color: #1fabe5
+}
+
+
+
+body{
+    background-image: url(img/bg.jpg);
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+
+}
+
+div{
+    background-color: white;
+}
