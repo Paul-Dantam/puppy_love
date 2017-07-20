@@ -22,8 +22,8 @@ colors:
 #site_header{
     background-color: #ff8523;
     height: 145px;
-    padding-left: 20px;
-    padding-top: 20px;
+     padding-left: 20px; 
+     padding-top: 20px; 
     
 }
 
@@ -37,30 +37,43 @@ colors:
     font-weight: bold;
     text-decoration: none;
     position: relative; top: 20px; left: 10px;
-    padding: 5px 20px 5px 20px;
+    padding: 8px 20px 8px 20px;
     /* margin: 10px; */
 }
 
-div:nth-child(2){
-    /* border-style: solid; */
+section:nth-child(2){
+      border-style: solid;
+      border-left:none;
+      border-right:none;
+      border-color: #dddddd;
+      padding-bottom: 50px;
+      
+}
+
+body > div{
+     background-color: white; 
 }
 
 
-h2{
-    color: #1fabe5
+#page_content{
+     padding:20px; 
+
 }
 
-h3{
+h2, h3{
     color: #1fabe5
 }
 
 ul{
-    font-weight: bold
+    font-weight: bold;
+    margin-bottom: 50px;
 }
 
-thead{
+thead > tr > td {
+    padding: 16px;
     background-color: #1fabe5;
     color: white;
+    text-align: left;
 }
 
 table{
@@ -68,17 +81,30 @@ table{
 }
 
 thead, td {
-    border: 1px #1fabe5;
+    border: 1px #046c97;
     border-style: solid;
+    text-align: left;
+    padding: 0px 0px 0px 8px;
 }
 
 p > a{
     color: #1fabe5
 }
 
-
+tbody > tr > td > img{
+    width: 65px;
+    margin: 10px 15px;
+         padding: 0px 0px 0px 0px; 
+}
+ .name{
+    background-color: #ff8523;
+    border-radius: 3px;
+ }
 
 body{
+    border: 3px #ffd24a;
+    border-radius: 7px;
+    border-style: inset;
     background-image: url(img/bg.jpg);
     margin-left: 150px;
     margin-right: 150px;
@@ -86,6 +112,6 @@ body{
 
 }
 
-div{
-    background-color: white;
+form {
+    background-color:#eee;
 }
